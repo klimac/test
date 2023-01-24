@@ -4,6 +4,19 @@ name: Release
     branches:
       - main
 
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: read
+  issues: read
+  discussions: read
+  packages: read
+  pages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
 jobs:
   release:
     name: release
